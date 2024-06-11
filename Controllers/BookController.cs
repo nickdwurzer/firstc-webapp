@@ -17,4 +17,17 @@ public class BookController: Controller {
         var books = _db.Books.ToList();
         return View(books);
     }
+
+    public IActionResult Create(){
+
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult CreateBook(BooksEntity book){
+        _db.Books.Add(book);
+        _db.SaveChanges();
+
+        return RedirectToAction("Index");
+    }
 }

@@ -26,8 +26,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/nwurzer/Dev/c#/firstwebapp
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/nwurzer/Dev/c\#/firstwebapp/Views/book/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvYm9vay9pbmRleC5jc2h0bWw=
+[/Users/nwurzer/Dev/c\#/firstwebapp/Views/Book/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9vay9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nwurzer/Dev/c\#/firstwebapp/Views/Book/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9vay9pbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/nwurzer/Dev/c\#/firstwebapp/Views/Home/Index.cshtml]

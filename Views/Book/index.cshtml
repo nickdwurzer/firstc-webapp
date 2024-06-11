@@ -1,0 +1,38 @@
+@model List<BooksEntity>
+
+@{
+    ViewData["Title"] = "Books";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Books</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<br>
+<div class="row">
+    <div class="col-md-12">
+        <a asp-action="Create" asp-controller="Book" class="btn btn-success">Create Book</a>
+    </div>
+</div>
+<div class="row">
+    <div class="colw-md-12">
+        <table class="table">
+            <thead>
+                <tr>
+                    <td>Book Title</td>
+                    <td>Author Name</td>
+                    <td>ISBN</td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var item in Model){
+                    <tr>
+                        <td>@item.Title</td>
+                        <td>@item.Author</td>
+                        <td>@item.ISBN</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
