@@ -485,3 +485,7 @@ $RECYCLE.BIN/
 
 # Database
 firstwebapp.db
+
+bin/Debug/
+
+obj/Debug/
